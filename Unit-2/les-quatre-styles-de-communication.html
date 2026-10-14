@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Visionnement de la vidéo de formation Les quatre styles de communication, Unité 2 — Communication.">
+  <meta name="color-scheme" content="light">
+  <title>Les quatre styles de communication | Unité 2 — Skillforce</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      --navy: #142f48;
+      --teal: #078b7d;
+      --blue: #146bb0;
+      --ink: #233b4d;
+      --muted: #526878;
+      --outline: #cee5ed;
+    }
+    * { box-sizing: border-box; }
+    html { background: #f4f9fc; }
+    body { margin: 0; color: var(--ink); line-height: 1.55; background: linear-gradient(180deg,#fff 0,#f4f9fc 95%); min-height: 100vh; }
+    .wrap { width: min(100% - 40px, 1024px); margin-inline: auto; }
+    header { padding: 28px 0 22px; border-bottom: 1px solid #d9e7ec; background: #fff; }
+    .logo { display: block; width: min(100%, 322px); height: auto; }
+    main { padding: 52px 0 74px; }
+    .kicker { color: var(--teal); font-weight: 750; font-size: .84rem; letter-spacing: .09em; text-transform: uppercase; margin: 0 0 10px; }
+    h1 { color: var(--navy); font-weight: 760; letter-spacing: -.035em; font-size: clamp(2rem, 5.5vw, 3.45rem); line-height: 1.12; max-width: 800px; margin: 0 0 20px; }
+    .rule { width: 88px; height: 5px; background: linear-gradient(90deg,var(--teal),#36c5b9); margin: 0 0 28px; }
+    .lead { font-size: 1.08rem; margin: 0 0 28px; max-width: 730px; }
+    .player-card { background: #fff; border: 1px solid var(--outline); border-radius: 16px; padding: 14px; box-shadow: 0 14px 38px rgba(23,65,90,.08); overflow: hidden; }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #081f33; border-radius: 10px; }
+    .player-help { display: flex; flex-wrap: wrap; gap: 14px 22px; justify-content: space-between; align-items: center; padding: 18px 6px 5px; }
+    .player-help p { margin: 0; color: var(--muted); font-size: .98rem; flex: 1 1 360px; }
+    a.download { display: inline-flex; align-items: center; text-decoration: none; color: #075f94; font-weight: 700; border-bottom: 2px solid #61a9c9; padding: 3px 0; }
+    a.download:hover, a.download:focus-visible { color: var(--navy); border-color: var(--navy); }
+    a:focus-visible { outline: 3px solid #0d75b5; outline-offset: 5px; border-radius: 2px; }
+    footer { color: #546b7c; border-top: 1px solid #d9e7ec; padding: 22px 0; background: #fff; font-size: .89rem; }
+    @media (max-width: 580px) {
+      header { padding-block: 20px; }
+      main { padding-block: 36px 56px; }
+      .wrap { width: min(100% - 26px, 1024px); }
+      .player-card { padding: 8px; border-radius: 12px; }
+      video { border-radius: 7px; }
+      .player-help { padding: 14px 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <img class="logo" src="https://raw.githubusercontent.com/SoftSkillsSolutions/sss-unit3-collaboration-quiz/main/Skillforce%20logo%20form.png" alt="Simcoe Muskoka Skillforce">
+    </div>
+  </header>
+  <main class="wrap">
+    <p class="kicker">Unité 2 · Communication</p>
+    <h1>Les quatre styles de communication</h1>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="lead">Regardez la vidéo à l'aide du lecteur ci-dessous.</p>
+    <section class="player-card" aria-label="Vidéo de formation">
+      <video controls playsinline preload="metadata" aria-label="Les quatre styles de communication">
+        <source src="./MASTER_UNIT_2_LES_QUATRE_STYLES_DE_COMMUNICATION.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la lecture de cette vidéo.
+        <a href="./MASTER_UNIT_2_LES_QUATRE_STYLES_DE_COMMUNICATION.mp4">Ouvrir le fichier vidéo</a>.
+      </video>
+      <div class="player-help">
+        <p>Utilisez les commandes pour lancer la lecture, régler le volume ou afficher la vidéo en plein écran.</p>
+        <a class="download" href="./MASTER_UNIT_2_LES_QUATRE_STYLES_DE_COMMUNICATION.mp4" download>Télécharger la vidéo (MP4) ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">Simcoe Muskoka Skillforce · Unité 2 — Communication</div>
+  </footer>
+</body>
+</html>
